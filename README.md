@@ -15,8 +15,22 @@ $ yarn add harlemshakify
 ```
 
 ## Usage
+Browser:
+```html
+<script src="PATH/TO/harlemshakify.umd.js"></script>
+<script>$('.button').on('click', harlemshakify)</script>
+```
+
+As ESM:
 ```javascript
-$('.button').on('click', harlemshakify)
+import harlemshakify from 'harlemshakify';
+harlemshakify();
+```
+
+Node:
+```javascript
+const harlemshakify = require('harlemshakify');
+harlemshakify();
 ```
 
 ## Demo
