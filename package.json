@@ -1,0 +1,32 @@
+{
+  "name": "harlemshakify",
+  "version": "0.0.1",
+  "description": "That classic little script from 2013 to make any website do the 'Harlem Shake'",
+  "keywords": [
+    "harlem",
+    "shake",
+    "pun",
+    "esoteric"
+  ],
+  "homepage": "https://github.com/dwiyatci/harlemshakify",
+  "bugs": "https://github.com/dwiyatci/harlemshakify/issues",
+  "license": "SEE LICENSE IN LICENSE.txt",
+  "main": "dist/harlemshakify.cjs.js",
+  "module": "dist/harlemshakify.esm.js",
+  "browser": "dist/harlemshakify.umd.js",
+  "author": "Glenn Dwiyatcita <dwiyatci@mail.com> (https://tiny.cc/dwiyatci)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dwiyatci/harlemshakify.git"
+  },
+  "scripts": {
+    "install:clean": "yarn upgrade || yarn install",
+    "upgrade": "yarn upgrade-interactive",
+    "build": "rollup -c"
+  },
+  "private": false,
+  "devDependencies": {
+    "rollup": "0.53.0",
+    "rollup-plugin-uglify": "2.0.1"
+  }
+}
