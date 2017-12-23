@@ -18,7 +18,7 @@ $ yarn add harlemshakify
 Browser:
 ```html
 <script src="PATH/TO/harlemshakify.umd.js"></script>
-<script>$('.button').on('click', harlemshakify)</script>
+<script>$('.btn').on('click', window.harlemshakify)</script>
 ```
 
 As ESM:
@@ -34,7 +34,7 @@ harlemshakify();
 ```
 
 ## Demo
-https://jsfiddle.net/glenn/???
+https://jsfiddle.net/glenn/4v87dff1
 
 ## Author
 Glenn Dwiyatcita ([@dwiyatci](https://tiny.cc/dwiyatci))
