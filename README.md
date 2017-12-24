@@ -7,7 +7,7 @@ That classic little script from 2013 to make any website do the 'Harlem Shake'.
 Based on the awesome [harlem_shaker](https://github.com/moovweb/harlem_shaker) by [Moovweb](https://moovweb.com).
 
 ### Why?
-While I need this for some of my fun showcases, no one npm-ify this yet. So yeah :sweat_smile:
+While I need this for some of my fun esoteric showcases, no one npm-ify this yet. So yeah :sweat_smile:
 
 ## Installation
 ```sh
@@ -15,19 +15,19 @@ $ yarn add harlemshakify
 ```
 
 ## Usage
-Browser:
+UMD (browser):
 ```html
 <script src="PATH/TO/harlemshakify.umd.js"></script>
 <script>$('.btn').on('click', window.harlemshakify)</script>
 ```
 
-As ESM:
+ESM:
 ```javascript
 import harlemshakify from 'harlemshakify';
 harlemshakify();
 ```
 
-Node:
+CJS (Node):
 ```javascript
 const harlemshakify = require('harlemshakify');
 harlemshakify();

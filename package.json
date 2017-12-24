@@ -21,7 +21,7 @@
   },
   "scripts": {
     "install:clean": "yarn upgrade || yarn install",
-    "upgrade": "yarn upgrade-interactive",
+    "update": "yarn upgrade-interactive --latest",
     "build": "rollup -c"
   },
   "private": false,
